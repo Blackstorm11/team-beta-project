@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding:0px;    
+    font-family: 'Nunito',sans-serif;
+    color: black;
+}
+/* LACHLANS CSS CODE */
+/* NAVBAR */
+.navbar-brand{  
+    color:#04AA6D;
+    font-size: 18px;
+}
+.navbar-brand:hover{
+    color: #04AA6D;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: white;
+}
+a.nav-link.dropdown-toggle{
+    padding: 10px 10px;
+}
+a.dropdown-item{
+    font-size: 18px;
+}
+p.dropdown-item1 {
+    color: #04AA6D;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 18px;
+}
+a.nav-link.dropdown-toggle:hover{
+    background-color:#04AA6D ;
+    height:200%;
+   
+}
+.navbar{
+    background-color:  #1D2A35 !important;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50%;
+}
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='green' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/></svg>") ;
+}
+button.navbar-toggler{
+    position:relative ;
+    right: 70%;
+}
+button.navbar-toggler.collapsed{
+    position: relative;
+}
+.navbar-toggler{
+   border:3px solid  #04AA6D;
+   padding: 0.1rem;
+}
+.navbar-toggler-icon {
+   display: inline-block;
+   width: 0.5em;
+   height: 0.5em;
+   vertical-align: middle;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+}
+ul.dropdown-menu.show{
+    position: absolute;
+    background-color: #282A35;
+}
+div.container-fluid{
+    padding: 0px 30px;
+}
+a.nav-link{
+    text-align: center;
+}
+.nav-line{
+    height: 5px;
+    background: #04AA6D;
+    border: none;  
+}
+span.navbar-toggler-icon{
+    width: 25px;
+    height: 20px;
+    padding: 0.8rem;
+}
+.log{
+    position: absolute;
+    right: 20px;
+    top:2%;
+    background-color: #4CAF50;
+    border: none;
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.get{
+    position: absolute;
+    right: 120px;
+    top:2%;
+    background-color: #FFC0C7;
+    border: none;
+    color:black;
+    padding:10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.get:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.log:hover{
+    color: black;
+}
+.dropdown-item {
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color:#FFF4A3;
+    text-align: center;
+    text-decoration: none;
+    background:#282A35 ;
+}
+/* BELOW NAVBAR content */
+.container2{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    background-color: rgb(13,23,33);
+}
+.black{
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    height: 15%;
+    background-color: #000;
+}
+.cont-head{
+    position: relative;     
+    color: aliceblue;
+    padding: 5vm;
+    font-size: 60px;
+    top:20%;
+    text-align: center;
+    margin: 0;
+    
+}
+.p{
+    font-size: 21px;
+    color: pink;
+    position: relative;  
+    top:20%;
+    text-align: center;
+    padding: 5vm; 
+}
+.hyper{
+    font-size: 21px;
+    position: absolute; 
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    color: pink;
+    top:65%;
+    padding: 5vm;   
+}
+.hyper:hover{
+    color: #04AA6D;
+}
+.search{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    border: 5px solid #04AA6D;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    outline: none !important;
+}
+.sbutton{
+    position: absolute;
+    top: 25%;
+    right: 3.5%;
+}
+i.fa-search:before {
+    content: "\f002";
+    background-color: #04AA6D;
+    padding: 15px;
+    margin-left: 23%;
+    border-radius: 50px;
+}
+/* END OF  CODE */
+
+
+
+/* OMKARS CSS CODE */
+.container3{
+    position: absolute;
+    top:100% ;
+    width:100%;
+    border-top: #04AA6D;
+}
+/* END OF CODE */
+
+
+/* MAYURS CSS CODE */
+
+/*Nirzar */
+.container4{
+    position: absolute;
+    top:300% ;
+    
+    width: 100%;
+    height: fit-content;
+    border-top: #04AA6D;
+    
+   
+}
+
+.w3_dark_blue_bg {
+    background-color: #282a35;
+  }
+footer {
+    width: 100%;
+    padding: 50px;
+  }
+  
+  footer .footer_row1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  footer .footer_row1 .footer_row1_left {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+.btn{
+    border-radius: 5px; 
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0px; 
+    font-weight: bolder;
+}
+  footer .btn:hover {
+    background-color: #e7e9eb;
+  }
+  
+  footer .footer_row1 .footer_row1_right {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  footer .footer_row1 .footer_row1_right a {
+    text-decoration: none;
+    position: relative;
+    top: -200%;
+    margin: 0 10px;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  footer .footer_row1 .footer_row1_right a:hover {
+    color: #04aa6d;
+  }
+  
+  footer .footer_row1 .footer_row1_right span {
+    display: inline-block;
+    position: relative;
+    top: -200%;
+    width: 2px;
+    height: 50%;
+    background-color: white;
+  }
+  
+  footer .footer_row2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 60px;
+  }
+  
+  footer .footer_row2 .footer_link_box {
+    width: 150px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  footer .footer_row2 .footer_link_box a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .footer_row2 .footer_link_box a i {
+    color: white;
+    font-size: 25px;
+  }
+  
+  footer .footer_row2 .footer_link_box a:hover i {
+    color: #04aa6d;
+  }
+  
+  footer > p {
+    margin: 30px 0;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 1.5px;
+  }
+  
+  footer > p a {
+    color: white;
+  }
+  
+  footer > p a:hover {
+    color: #04aa6d;
+  }
+  
+  footer .footer_like_box {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  footer .footer_like_box a {
+    text-decoration: none;
+  }
+  
+  footer .footer_like_box a i {
+    font-size: 50px;
+    color: white;
+  }
+  
+  footer .footer_like_box a:hover i {
+    color: #e7e9eb;
+  }
+  @media screen and (max-width: 992px) {
+    .column_level_outer {
+      width: 100%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .column_level_outer .column_level_main {
+      width: 100% !important;
+    }
+    .other_link_container .lg_link_container {
+      width: 95%;
+      margin: 10px 0;
+    }
+    .other_link_container .w3links_box {
+      margin: 10px 0;
+    }
+    .other_link_container .w3links_box20 {
+      width: 45.1%;
+    }
+    .other_link_container .w3links_box45 {
+      width: 95%;
+    }
+    footer .footer_row1 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    footer .footer_row1 .footer_row1_left {
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 10px 0;
+    }
+    footer .footer_row1 .footer_row1_right {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+  
+  
+ 
+/* END OF CODE */
+
+/* END OF CODE */
+
+
+
